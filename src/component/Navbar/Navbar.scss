@@ -1,0 +1,67 @@
+@mixin flexability{
+    display: flex;
+    align-items: center;
+
+}
+
+.navbar{
+    height: 80px;
+    
+    .wrapper{
+        padding: 10px 30px;
+        @include flexability;
+        justify-content: space-between;
+      
+    }
+    .item{
+        font-size: 15px;
+        @include flexability;
+    } 
+   
+  
+ 
+    .left{
+        @include flexability;
+        justify-content: center;
+        gap: 20px;
+      
+    }
+  
+    .right{
+        @include flexability;
+        gap: 20px;
+
+    }
+    .center{
+        @include flexability;
+        font-size: 25px;
+    }
+
+    .icons{
+        @include flexability;
+        gap: 10px;
+        color: #777;
+        cursor: pointer;
+    }
+
+    .carticon{
+        position: relative;
+        span{
+            background-color: mediumblue;
+            color: white;
+            border-radius: 50%;
+            font-size: 10px;
+            position: absolute;
+            top:-10px;
+            right: -9px;
+            padding:  2px 5px;
+            
+
+        }
+   
+    }
+
+  
+   
+  
+}

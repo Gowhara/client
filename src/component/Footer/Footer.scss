@@ -1,0 +1,51 @@
+.Footer {
+  position: absolute;
+  //bottom: 260px;
+  margin: 20px 30px;
+
+  height: 20px;
+  .topsection {
+    display: flex;
+    gap: 50px;
+    .item {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      span {
+        font-size: 14px;
+        color: gray;
+      }
+      h3 {
+        font-size: 20px;
+        font-weight: bold;
+        color: gray;
+      }
+    }
+  }
+  .bottomsection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .left {
+      .logo {
+        color: darkblue;
+        font-weight: bold;
+        font-size: 20px;
+      }
+
+      .copyright {
+        margin-left: 10px;
+        font-size: 15px;
+        color: gray;
+      }
+    }
+
+    .right{
+        img{
+            height: 50px;
+        }
+    }
+  }
+}

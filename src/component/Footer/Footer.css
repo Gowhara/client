@@ -1,0 +1,42 @@
+.Footer {
+  position: absolute;
+  margin: 20px 30px;
+  height: 20px;
+}
+.Footer .topsection {
+  display: flex;
+  gap: 50px;
+}
+.Footer .topsection .item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.Footer .topsection .item span {
+  font-size: 14px;
+  color: gray;
+}
+.Footer .topsection .item h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: gray;
+}
+.Footer .bottomsection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Footer .bottomsection .left .logo {
+  color: darkblue;
+  font-weight: bold;
+  font-size: 20px;
+}
+.Footer .bottomsection .left .copyright {
+  margin-left: 10px;
+  font-size: 15px;
+  color: gray;
+}
+.Footer .bottomsection .right img {
+  height: 50px;
+}/*# sourceMappingURL=Footer.css.map */
