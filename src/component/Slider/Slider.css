@@ -1,0 +1,45 @@
+.slider {
+  height: calc(100vh - 80px);
+  width: 100vw;
+  color: white;
+  overflow: hidden;
+}
+.slider .img-conatiner {
+  width: 300vw;
+  display: flex;
+  height: 100%;
+  transition: all 3s ease;
+}
+.slider .img-conatiner img {
+  width: 100vw;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.slider .icons {
+  width: 100px;
+  display: flex;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 10px;
+  gap: 30px;
+  margin: auto;
+}
+.slider .icons .icon {
+  width: 50px;
+  color: black;
+  border: 2px solid rgb(52, 51, 51);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/*@function imageTransform() {
+    $index: var(--index); 
+    $translateX: $index * 100vw; 
+
+
+    @return translate($translateX); 
+  }*//*# sourceMappingURL=Slider.css.map */

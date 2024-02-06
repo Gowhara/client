@@ -1,16 +1,18 @@
 import { children } from "react";
 import { createBrowserRouter, RouterProvider,Outlet } from "react-router-dom";
 import Home from "./pages/home/Home";
-import Product from "./pages/products/Product";
-import Products from "./pages/products/Products";
+import Product from "./pages/product/Product";
+import Categories from "./pages/Categories/Categories";
 import Footer from "./component/Footer/Footer";
 import Navbar from "./component/Navbar/Navbar";
 import './App.css';
+import { CartProvider } from "./hooks/CartContext";
+
 const Layout=()=>{
   return(
     <div className="app">
       <Navbar/>
-      <Outlet/> {/*bykhlih y3rdlo el pages el 3yzha w el layout yfdl sabt ely hwa nav and footer*/}
+      <Outlet/> {/*bykhlih y3rg3lo el pages el 3yzha w el layout yfdl sabt ely hwa nav and footer*/}
       <Footer/>
     </div>
   );
@@ -24,12 +26,12 @@ const router = createBrowserRouter([
         element: <Layout />,
         children:[
           {
-            path: "home",
+            path: "",
             element: <Home />,
           },
           {
-            path: "/products/:id", //category
-            element: <Products />,
+            path: "/Categories/:category", //category
+            element: <Categories />,
           },
           {
             path: "/product/:id",
@@ -45,7 +47,9 @@ const router = createBrowserRouter([
 function App() {
   return (
     <div>
+      <CartProvider>
       <RouterProvider router={router} />
+      </CartProvider>
     </div>
   );
 }

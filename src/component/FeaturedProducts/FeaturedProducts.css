@@ -1,0 +1,23 @@
+.featuredProducts {
+  margin: 200px 200px;
+}
+.featuredProducts .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.featuredProducts h1 {
+  flex: 2;
+  text-transform: capitalize;
+}
+.featuredProducts p {
+  flex: 3;
+  color: gray;
+}
+.featuredProducts .bottom {
+  display: flex;
+  /* justify-content:center;*/
+  gap: 50px;
+  margin-left: 120px;
+}/*# sourceMappingURL=FeaturedProducts.css.map */

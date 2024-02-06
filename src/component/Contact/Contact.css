@@ -1,0 +1,31 @@
+.contact {
+  background-color: #2879fe;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact .wrapper {
+  width: 50%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact .wrapper input {
+  padding: 10px;
+  border: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.contact .wrapper button {
+  padding: 10px;
+  color: white;
+  background-color: darkslategray;
+  border: none;
+  border-radius: 0 5px 5px 0;
+}
+.contact .wrapper .icons {
+  display: flex;
+  gap: 10px;
+}/*# sourceMappingURL=Contact.css.map */
