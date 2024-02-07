@@ -50,7 +50,7 @@ function Slider(props) {
        <div className="slider">
         <div className="img-conatiner" >
         {images.map((img, index) => ( 
-                <img key={index} src={img} alt={`Image ${index}`} style={{ transform: `translateX(-${currentImgIndex * 100}vw` }} /> 
+                <img key={index} src={img} style={{ transform: `translateX(-${currentImgIndex * 100}vw` }} /> 
             ))}
     
         </div>

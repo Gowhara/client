@@ -1,4 +1,4 @@
-import { children } from "react";
+
 import { createBrowserRouter, RouterProvider,Outlet } from "react-router-dom";
 import Home from "./pages/home/Home";
 import Product from "./pages/product/Product";
