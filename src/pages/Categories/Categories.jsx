@@ -61,16 +61,7 @@ function Categories() {
     <div className="categories">
       <div className="left">
         <div className="filterItem">
-         {/* <h1>Product Categories</h1>
-          <div className="inputItem">
-            <input type="checkbox" id="1" value={1} />
-            <label htmlFor="1">Shoes</label>
-          </div>
-          <div className="inputItem">
-            <input type="checkbox" id="2" value={2} />
-            <label htmlFor="">Skirts</label>
-
-  </div>*/}
+   
         </div>
 
         <div className="filterItem">
